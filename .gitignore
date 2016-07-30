@@ -1,2 +1,4 @@
-in.*
-out.*
+in.txt
+in*.txt
+out.csv
+out.txt
