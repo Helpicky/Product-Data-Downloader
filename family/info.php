@@ -1,6 +1,6 @@
 <?php
 $output="ID,品名,咖啡因含量,產品特色,過敏原,認證標章,規格(每份),本包裝包含幾份,熱量,蛋白質,脂肪,飽和脂肪,反式脂肪,碳水化合物,鈉,糖,原料,添加物,包材,供應商名稱,供應商地址,供應商電話\n";
-$input=file_get_contents("input.txt");
+$input=file_get_contents("in.txt");
 $input=explode("\r\n", $input);
 $count=0;
 foreach ($input as $id) {

@@ -1,6 +1,6 @@
 <?php
 $output="ID,品名,重量,熱量,蛋白質,脂肪,飽和脂肪,反式脂肪,碳水化合物,鈉\n";
-$input=file_get_contents("input.csv");
+$input=file_get_contents("in.txt");
 $input=explode("\r\n", $input);
 $count=0;
 foreach ($input as $id) {
